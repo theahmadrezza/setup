@@ -1,0 +1,116 @@
+{
+    // Code runner settings
+
+    "code-runner.customCommand": "clear && /usr/bin/env bash src/main.sh",
+    "code-runner.showRunCommandInExplorerContextMenu": false,
+    "code-runner.showRunCommandInEditorContextMenu": false,
+    "code-runner.showStopIconInEditorTitleMenu": true,
+    "code-runner.showRunIconInEditorTitleMenu": false,
+    "code-runner.defaultLanguage": "shellscript",
+    "code-runner.temporaryFileName": "__SHTemp",
+    "code-runner.saveAllFilesBeforeRun": false,
+    "code-runner.showExecutionMessage": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.fileDirectoryAsCwd": false,
+    "code-runner.enableAppInsights": false,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.ignoreSelection": false,
+    "code-runner.respectShebang": false,
+    "code-runner.preserveFocus": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.terminalRoot": "",
+    "code-runner.cwd": "",
+
+    "code-runner.languageIdToFileExtensionMap": {},
+    "code-runner.executorMapByFileExtension": {},
+    "code-runner.executorMapByGlob": {},
+    "[code-runner-output]": {},
+    "[code-text-binary]": {},
+
+    "code-runner.executorMap": {
+        "shellscript": "clear && /usr/bin/env bash $fullFileName"
+    },
+
+    // Path intellisense settings
+
+    "path-intellisense.autoTriggerNextSuggestion": true,
+    "path-intellisense.absolutePathToWorkspace": false,
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "path-intellisense.ignoreTsConfigBaseUrl": false,
+    "path-intellisense.showOnAbsoluteSlash": true,
+    "path-intellisense.extensionOnImport": true,
+    "path-intellisense.showHiddenFiles": true,
+    "path-intellisense.absolutePathTo": "",
+
+    "path-intellisense.mappings": {
+        "@": "${workspaceFolder}/src/"
+    },
+
+    // Bash IDE settings
+
+    "bashIde.globPattern": "**/*@(.sh|.inc|.bash|.command)",
+    "bashIde.enableSourceErrorDiagnostics": false,
+    "bashIde.includeAllWorkspaceSymbols": false,
+    "bashIde.backgroundAnalysisMaxFiles": 500,
+    "bashIde.shellcheckPath": "shellcheck",
+    "bashIde.explainshellEndpoint": "",
+    "bashIde.shellcheckArguments": "",
+    "bashIde.logLevel": "info",
+
+    "bashIde.shfmt.ignoreEditorconfig": false,
+    // "bashIde.shfmt.languageDialect": "bash",
+    // "bashIde.shfmt.binaryNextLine": false,
+    // "bashIde.shfmt.spaceRedirects": true,
+    // "bashIde.shfmt.funcNextLine": false,
+    // "bashIde.shfmt.simplifyCode": true,
+    // "bashIde.shfmt.keepPadding": false,
+    // "bashIde.shfmt.caseIndent": true,
+    // "bashIde.shfmt.path": "shfmt",
+
+    // Shell check settings
+
+    "shellcheck.useWorkspaceRootAsCwd": true,
+    "shellcheck.executablePath": "shellcheck",
+    "shellcheck.disableVersionCheck": false,
+    "shellcheck.enableQuickFix": true,
+    "shellcheck.ignorePatterns": {},
+    "shellcheck.logLevel": "info",
+    "shellcheck.customArgs": [],
+    "shellcheck.run": "onSave",
+    "shellcheck.enable": true,
+    "[shellcheck-output]": {},
+    "shellcheck.exclude": [],
+    "[shellcheckrc]": {},
+
+    // Code spell checker settings
+
+    "cSpell.words": [
+        "ahmadreza",
+        "AUTOINCREMENT",
+        "installl",
+        "kget",
+        "Manouchehri",
+        "mksh",
+        "noheader",
+        "noinit",
+        "pipefail",
+        "shellcheck",
+        "shfmt",
+        "theahmadrezza",
+        "toplevel"
+    ],
+
+    // Misc
+
+    "files.associations": {
+        ".editorconfig": "editorconfig",
+        ".shellcheckrc": "shellcheckrc",
+        "LICENSE": "plaintext",
+        "*.sh": "shellscript"
+    },
+
+    "[shellscript]": {
+        "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode",
+        "editor.formatOnSave": true
+    }
+}

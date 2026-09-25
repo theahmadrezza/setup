@@ -1,0 +1,17 @@
+# Report everything down to and including "style"-level notes (the most verbose severity).
+severity=style
+
+# Turn on every optional check that ShellCheck ships with.
+enable=all
+
+# Treat all analyzed files as Bash scripts.
+shell=bash
+
+# Follow and analyze files included with `source` or `.` (equivalent to the -x option).
+external-sources=true
+
+# Enable deeper analysis across command boundaries for more accurate diagnostics.
+extended-analysis=true
+
+# Resolve sourced files relative to the workspace root when shellcheck.useWorkspaceRootAsCwd is enabled in VS Code.
+source-path=.

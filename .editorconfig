@@ -1,0 +1,26 @@
+# Marks this as the top-level config; stops EditorConfig from searching parent directories.
+root = true
+
+# Applies the following shfmt rules to all shell script files.
+[*.sh]
+
+# Keep the opening brace on the same line as the function name (func() {), not on the next line.
+function_next_line = false
+
+# Indent the body of case statements one level deeper than the switch/case keyword.
+switch_case_indent = true
+
+# Keep binary operators (&&, ||) at the end of a line rather than the start of the next line.
+binary_next_line = false
+
+# Add a space after redirect operators (>file becomes > file style spacing).
+space_redirects = true
+
+# Parse scripts using Bash syntax rules (as opposed to POSIX sh or mksh).
+shell_variant = bash
+
+# Use space (not tab) for indentation.
+indent_style = space
+
+# Set each indentation level to 4 spaces.
+indent_size = 4
