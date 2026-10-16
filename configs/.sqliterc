@@ -1,0 +1,12 @@
+-- Display column headers in query results
+.headers on
+
+-- Format outputs as clean Unicode bordered boxes
+.mode box
+
+-- Display NULL values explicitly as 'NULL' instead of empty space
+.nullvalue "null"
+
+-- SQLite custom prompt
+.prompt "-- \033[36m\033[0m SQLite‌ \033[1;38;5;208m>> \033[0m" " -- "
+

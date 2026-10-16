@@ -1,0 +1,11 @@
+[user]
+	email = dev.ahmadreza78@gmail.com
+	name = Ahmadreza Manouchehri
+
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/ahmadrezza/.local/bin/gh auth git-credential
+
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/ahmadrezza/.local/bin/gh auth git-credential

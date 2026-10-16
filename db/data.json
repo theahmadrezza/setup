@@ -1,0 +1,94 @@
+[
+    {
+        "_id": 1,
+        "url": "https://github.com/PaulJuliusMartinez/jless"
+    },
+    {
+        "_id": 2,
+        "url": "https://github.com/tree-sitter/tree-sitter"
+    },
+    {
+        "_id": 3,
+        "url": "https://github.com/microsoft/cascadia-code"
+    },
+    {
+        "_id": 4,
+        "url": "https://github.com/JetBrains/JetBrainsMono"
+    },
+    {
+        "_id": 5,
+        "url": "https://github.com/Macchina-CLI/macchina"
+    },
+    {
+        "_id": 6,
+        "url": "https://github.com/ryanoasis/nerd-fonts"
+    },
+    {
+        "_id": 7,
+        "url": "https://github.com/koalaman/shellcheck"
+    },
+    {
+        "_id": 8,
+        "url": "https://github.com/ajeetdsouza/zoxide"
+    },
+    {
+        "_id": 9,
+        "url": "https://github.com/BurntSushi/ripgrep"
+    },
+    {
+        "_id": 10,
+        "url": "https://github.com/vicinaehq/vicinae"
+    },
+    {
+        "_id": 11,
+        "url": "https://github.com/starship/starship"
+    },
+    {
+        "_id": 12,
+        "url": "https://github.com/eza-community/eza"
+    },
+    {
+        "_id": 13,
+        "url": "https://github.com/uutils/coreutils"
+    },
+    {
+        "_id": 14,
+        "url": "https://github.com/neovim/neovim"
+    },
+    {
+        "_id": 15,
+        "url": "https://github.com/junegunn/fzf"
+    },
+    {
+        "_id": 16,
+        "url": "https://github.com/astral-sh/uv"
+    },
+    {
+        "_id": 17,
+        "url": "https://github.com/sharkdp/bat"
+    },
+    {
+        "_id": 18,
+        "url": "https://github.com/sharkdp/fd"
+    },
+    {
+        "_id": 19,
+        "url": "https://github.com/ducaale/xh"
+    },
+    {
+        "_id": 20,
+        "url": "https://github.com/01mf02/jaq"
+    },
+    {
+        "_id": 21,
+        "url": "https://github.com/jqlang/jq"
+    },
+    {
+        "_id": 22,
+        "url": "https://github.com/mvdan/sh"
+    },
+    {
+        "_id": 23,
+        "url": "https://github.com/cli/cli"
+    }
+]
